@@ -31,7 +31,6 @@ while True:
         break
 
 random_number = random.randint(1, difficulty)
-# print(random_number)
 
 while guesses_done < guesses_allowed:
     guess = input("Guess the number between 1 and {}:".format(difficulty))
